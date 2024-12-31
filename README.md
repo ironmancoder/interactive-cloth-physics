@@ -32,7 +32,7 @@ Compilation Command
 Use the following command to compile the project:
 
 ```bash
-clang++ -std=c++17 -I/usr/local/opt/sfml@2/include -L/usr/local/opt/sfml@2/lib -lsfml-graphics -lsfml-window -lsfml-system main.cpp -o main
+clang++ -std=c++17 -pthread -I/usr/local/opt/sfml@2/include -L/usr/local/opt/sfml@2/lib -lsfml-graphics -lsfml-window -lsfml-system main.cpp -o main
 ```
 
 ## Running the Simulation
